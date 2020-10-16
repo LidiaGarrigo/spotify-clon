@@ -1,0 +1,183 @@
+/*
+Colors:
+
+Text: 1A1A1A
+Green: #00B172
+White: #FFF
+
+*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.contenedor {
+    width: 100%;
+    max-width: 800px;
+    border: solid lightgray;
+}
+body {
+    width: 100%;
+    max-width: 800px;
+}
+.logo img{
+    width: 140px;
+    margin: 10px 0px 5px 25px;
+}
+.portada {
+    width: 100%;
+}
+.barnav {
+    display: flex;
+    justify-content: space-between;
+}
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    
+}
+li {
+    list-style: none;
+    font-family: sans-serif;
+    color: #2C2C2C;
+    font-size: 14px;
+}
+.caja {
+    position: relative;
+    display: inline;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textoEncima {
+    position: absolute;
+    font-family: Arial;
+    color: white;
+    margin-top: 30px;
+}
+.textoEncima1 {
+    position: absolute;
+    font-family: Arial;
+    color: white;
+    margin-top: 75px;
+}
+
+.caja h1 {
+    position: absolute;
+    font-family: Arial;
+    color: white;
+    font-size: 45px;
+    margin-bottom: 90px;
+}
+
+.main h1 {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin: 20px 0px 10px 0;
+}
+.main ul {
+    margin: 0px 5px 20px 5px;
+    display: flex;
+    
+}
+.main ul li {
+    color: #12BB7F;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    margin: 75px 0px 10px 0px;  
+    position: absolute;
+    
+}
+.main p {
+    text-align: center;
+    margin: 20px 5px 10px 5px;
+    font-family: Arial;
+    color: #C2C2C2;
+    padding:13px;
+}
+.sonido, .musica, .dispositivos {
+    margin: 25px 10px 20px 10px;  
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;  
+    width: 100%;
+}
+.iconos img {
+    width: 70px;
+    margin: 10px 5px 10px 5px;
+    
+}
+.iconos {
+    display: flex;
+    align-self: flex-start;
+}
+
+article {
+    width: 100%;
+}
+.fondoArticle {
+    background-color: #00B172;
+    width: 94%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+
+article h1 {
+    font-family: sans-serif;
+    color: white; 
+    border-bottom: solid white;  
+    font-weight: normal;
+    
+}
+.tituloArticle {
+    
+    width: 41%;
+    margin: 30px 0px 320px 15px; 
+    
+}
+article h2 {
+    color: white;
+    font-family: arial;
+    font-size: 20px;
+    margin: 20px 0px 20px 10px; 
+}
+.fondoArticle  p {
+    color: #D7F4E6;
+    font-family: Arial;
+    text-align: left;
+    margin: 10px 0px 10px 10px;
+
+}
+.textoArticle {
+    width: 22%;
+    position: absolute;
+    margin: 60px 460px 30px 10px; 
+}
+.iconospotify {
+margin-top: 150px;
+}
+.iconospotify img{
+    width: 80px;
+    margin-right: 40px;
+    
+}
+.app img{
+    width: 200px;
+}
+
+.app {
+    margin: 50px 30px 30px 20px;
+}

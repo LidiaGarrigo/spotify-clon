@@ -6,7 +6,7 @@ Green: #00B172
 White: #FFF
 
 */
-@media (min-width: 800px) { 
+@media screen and (min-width: 800px) { 
 
 *{
     margin: 0px;

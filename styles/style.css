@@ -6,6 +6,8 @@ Green: #00B172
 White: #FFF
 
 */
+@media (max-width: 990px) { 
+
 *{
     margin: 0px;
     padding: 0px;
@@ -177,4 +179,5 @@ margin-top: 150px;
 
 .app {
     margin: 50px 30px 30px 20px;
+}
 }

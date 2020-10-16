@@ -140,29 +140,26 @@ article h1 {
     color: white; 
     border-bottom: solid white;  
     font-weight: normal;
-    
 }
 .tituloArticle {
-    
     width: 41%;
-    margin: 30px 0px 320px 15px; 
-    
+    margin: 30px 0px 330px 40px; 
 }
 article h2 {
     color: white;
     font-family: arial;
     font-size: 20px;
-    margin: 20px 0px 20px 30px; 
+    margin: 20px 0px 20px 10px; 
 }
 .fondoArticle  p {
     color: #D7F4E6;
     font-family: Arial;
     text-align: left;
-    margin: 10px 0px 10px 30px;
+    margin: 10px 0px 10px 10px;
 
 }
 .textoArticle {
-    width: 22%;
+    width: 25%;
     position: absolute;
     margin: 60px 460px 30px 30px; 
 }
@@ -172,6 +169,7 @@ margin-top: 150px;
 .iconospotify img{
     width: 80px;
     margin-right: 40px;
+    
 }
 .app img{
     width: 200px;
